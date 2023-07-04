@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body .bg-image {
+    /*Image used*/
+    background-image: url("https://img.freepik.com/free-vector/man-search-hiring-job-online-from-laptop_1150-52728.jpg?w=996&t=st=1688312773~exp=1688313373~hmac=dda7f20e9e12ef126d0f0c98299e594b5effba33241ecd9ed1e1acf9d207a6bc");
+
+    /*add blur effect*/
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+
+    /*full height*/
+    height: 100%;
+
+    /*centre and scale image*/
+    background-position: centre;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+
+html{
+    font-size: 16px;
+    overflow-x: hidden;
+    scroll-padding-top: 89px;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 16px 9%;
+
+}
+
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.column{
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 6px;
+}
+
+.about-section{
+    padding: 50px;
+    text-align: center;
+    background-color: #9b9d9e;
+    color: black;
+}
+
+.container{
+    padding: 0 16px;
+}
+
+.container::after, .row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.location{
+    color: grey;
+}
+
+.button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(16, 134, 238);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover{
+    background-color: #043c74;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #9b9d9e;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
